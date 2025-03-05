@@ -1,4 +1,21 @@
-# 📌 Manual de Injection en My
+# 📌 Manual de Injection en MySQL
+
+---
+
+Notas:
+
+1.  Estos comandos estan orientados a pruebas en mysql.
+2.  Si te da error al probar remplaza los -- finales por #
+
+---
+
+    Ejemplo:
+    Tenemos el comando ' UNION SELECT database(), NULL; --
+    Se convierte en ' UNION SELECT database(), NULL; #
+
+---
+
+---
 
 ## 🛠 1. Identificar si una entrada es vulnerable
 
